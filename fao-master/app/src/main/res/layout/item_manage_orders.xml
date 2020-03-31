@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangular_gray_border"
+            >
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/order_nbr"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1.2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/farmer"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="0.9"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/date"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="0.8"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/block"
+                />
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/stop"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/step"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/work_plan"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/print"
+                />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            >
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_1_font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/primary"
+                android:text="2020/3031/ج"
+                />
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_1_font"
+                android:layout_weight="1.2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="علي تقي"
+                />
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_1_font"
+                android:layout_weight="0.9"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="25/03/2020"
+                />
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_1_font"
+                android:layout_weight="0.8"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="5	"
+                />
+
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+              >
+
+                <ImageView
+                        android:layout_width="15dp"
+                         android:layout_height="15dp"
+                         android:src="@drawable/ic_shutdown"
+                         android:scaleType="centerInside"
+                         android:tint="@color/gray_text_dark"
+                         android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+     
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="الكشف الفني - رئيس الجهاز - توقيع المزارع	"
+
+                />
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_arrow_right_left"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_right"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rectangular_gray_border"
+            >
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/order"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1.2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/estimated_technical_examination"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="0.9"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/index"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="0.8"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/accounting"
+                />
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/order_pay"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/order_work"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/request_business"
+                />
+
+        <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/et_gray_border"/>
+
+        <com.ids.fao.custom.CustomTextViewBold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:textColor="@color/gray_text_dark"
+                android:text="@string/receipt_business_record"
+                />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            >
+
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_edit"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1.2">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_technical"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:gravity="center_vertical"
+                android:layout_weight="0.9">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_shutdown"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_weight="0.8">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_shutdown"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_payment_order"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="3">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_reload"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_right"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/rectangular_gray_border"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    >
+
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_menu"
+                        android:scaleType="centerInside"
+                        android:tint="@color/gray_text_dark"
+                        android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+        android:background="@color/primary"/>
+
+</LinearLayout>

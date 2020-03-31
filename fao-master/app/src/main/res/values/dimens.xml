@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">85dp</dimen>
+    <dimen name="card_corner_radius">24dp</dimen>
+    <dimen name="mini_radius">2dp</dimen>
+    <dimen name="normal_radius">8dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="mini_margin">4dp</dimen>
+    <dimen name="second_margin">16dp</dimen>
+    <dimen name="big_margin">28dp</dimen>
+    <dimen name="font">14sp</dimen>
+    <dimen name="small_1_font">13sp</dimen>
+    <dimen name="small_2_font">12sp</dimen>
+    <dimen name="etHeight">50dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="btHeight">40dp</dimen>
+    <dimen name="title_dash_height">35dp</dimen>
+    <dimen name="title_width">185dp</dimen>
+    <dimen name="item_header">45dp</dimen>
+    <dimen name="et_big_height">120dp</dimen>
+    <dimen name="item_status_height">70dp</dimen>
+
+    <dimen name="item_et_height">40dp</dimen>
+</resources>

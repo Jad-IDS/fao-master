@@ -1,0 +1,161 @@
+<resources>
+    <!--    Keys    &   Fixed    -->
+    <!--    -->
+    <!--    Keys    -->
+
+    <string name="app_name">FAO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="share">نشر</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="title">ادخل العنوان</string>
+
+
+    <string name="yes">نعم</string>
+    <string name="no">كلا</string>
+
+    <string name="forgot_your_password">نسيت رمز مرورك؟</string>
+    <string name="password">رمز المرور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="enter_valid_email">يرجى إدخال بريد إلكتروني صحيح</string>
+
+    <string name="enter_username">من فضلك ادخل اسم المستخدم</string>
+    <string name="enter_password">من فضلك ادخل كلمة المرور</string>
+
+    <string name="login_title">الرجاء إدخال بيانات الدخول</string>
+    <string name="login_title_2">للدخول إلى النظام</string>
+    <string name="file_number">رقم الملف</string>
+    <string name="information_about_user">معلومات عن مقدم الطلب</string>
+
+    <string name="applicant">مقدم الطلب</string>
+    <string name="place_dob">مكان وتاريخ الولادة</string>
+
+
+    <string name="record_number">    رقم السجل ومحله</string>
+
+
+
+
+    <string name="financial_assistant">المساعدات المالية الممنوحة سابقا للمزارع</string>
+    <string name="farmer_address">عنوان المزارع</string>
+    <string name="phone_nbr">رقم الهاتف</string>
+    <string name="block_nbr">رقم العقار</string>
+    <string name="agent">الوكلاء</string>
+
+    <string name="applicant_agent">مقدم الطلب وكيل؟</string>
+    <string name="concerned_person">صاحب العلاقة / الوصي / الوكيل</string>
+
+
+    <string name="status_reclaimed">وضع المزارع والعقارات المراد استصلاحها</string>
+
+    <string name="order_nbr">رقم الطلب</string>
+    <string name="its_date">تاريخها	</string>
+    <string name="its_type">نوعها	</string>
+    <string name="its_initial_value">قيمتها الاساسية	</string>
+    <string name="its_current_value">قيمتها الحالية	</string>
+
+
+    <string name="total_area">المساحة الاجمالية		</string>
+    <string name="total_percecntage"> نسبة الملكية في العقار		</string>
+    <string name="soil"> التربة	</string>
+    <string name="rock_type"> نوع الصخور		</string>
+    <string name="rock_ratio"> نسبة الصخور		</string>
+    <string name="gradient"> نسبة الانحدار		</string>
+    <string name="show_off"> تجليل	</string>
+    <string name="land_class"> فئة الارض		</string>
+    <string name="hubby_irr"> بعل / ري		</string>
+    <string name="height_sea"> الارتفاع عن سطح البحر</string>
+
+    <string name="used_tractor">  الجرار المستعمل	</string>
+    <string name="contractor_name"> اسم المتعهد مالك الجرار		</string>
+    <string name="tractor_type"> نوع الجرار		</string>
+    <string name="tractor_icon">رمز الجرار		</string>
+    <string name="agreement_number">رقم الاتفاقية		</string>
+    <string name="agreement_history">تاريخ الاتفاقية		</string>
+    <string name="agreement_value">قبمة الاتفاقية		</string>
+
+
+    <string name="list_of_attachments">لائحة المرفقات</string>
+    <string name="save">حفظ</string>
+    <string name="choose_file">اختر ملف</string>
+    <string name="view">رؤية</string>
+    <string name="delete">حذف</string>
+    <string name="file_name">اسم المرفق	</string>
+    <string name="cancel">إلغاء</string>
+    <string name="signature">التوقيع</string>
+    <string name="back">رجوع</string>
+    <string name="clear">مسح</string>
+    <string name="permission_denied">تم رفض الإذن</string>
+    <string name="please_sign">يرجى إضافة توقيعك لمتابعة العملية الخاصة بك</string>
+
+
+    <string name="order_list">لائحة الطلبات</string>
+    <string name="farmer_name">اسم المزارع</string>
+    <string name="from_date">من تاريخ</string>
+    <string name="to_date">الى تاريخ</string>
+    <string name="order_number">رقم الطلب</string>
+    <string name="block_number">رقم العقار</string>
+    <string name="order_status">حالة الطلب</string>
+    <string name="comfirm_status">حالة الموافقة</string>
+    <string name="find">بحث</string>
+    <string name="add_new_order">اضافة طلب جديد</string>
+    <string name="farmer">المزارع</string>
+    <string name="date">تاريخ</string>
+    <string name="block">العقار</string>
+    <string name="stop">توقيف</string>
+    <string name="step">الخطوة</string>
+    <string name="work_plan">سير العمل</string>
+    <string name="print">طباعة</string>
+    <string name="order">الطلب</string>
+    <string name="estimated_technical_examination">الكشف الفني التقديري</string>
+    <string name="index">فهرسة</string>
+    <string name="accounting">محاسبة</string>
+    <string name="order_pay">امر دفع</string>
+    <string name="order_work">امر مباشرة عمل</string>
+    <string name="request_business">طلب استلام اعمال</string>
+    <string name="receipt_business_record">محضر استلام اعمال</string>
+
+
+    <string name="spinner_order_status_1">الطلبات السارية</string>
+    <string name="spinner_order_status_2">الطلبات المتوقفة</string>
+    <string name="spinner_order_status_3">كل الطلبات</string>
+
+
+    <string name="spinner_status_confirm_1">قيد العمل</string>
+    <string name="spinner_status_confirm_2">كل الطلبات</string>
+    <string name="reset_your_password">اعد ضبط كلمه السر</string>
+    <string name="enter_your_e_mail_address">ادخل بريدك الالكتروني</string>
+    <string name="back_to_login">العودة لتسجيل الدخول</string>
+    <string name="send_reset_password">إرسال</string>
+    <string name="last_step_notes">ملاحظات الخطوة السابقة</string>
+
+    <string name="role">الدور</string>
+    <string name="general_clarifications">إيضاحات عامة</string>
+
+    <string name="confirm">تأكيد</string>
+    <string name="decline">رفض</string>
+
+    <string name="order_info"> معلومات عن الطلب</string>
+    <string name="decision_number_commity_receiving">رقم قرار تعيين لحنة الاستلام</string>
+    <string name="date_commity_receiving">تاريخ قرار تعيين لحنة الاستلام</string>
+    <string name="work_recive_date">تاريخ إستلام الأعمال</string>
+    <string name="work_list_needed">لائحة الاعمال المطلوبة</string>
+    <string name="nbr_of_units_executed">عدد الوحدات المطلوب تنفيذها</string>
+    <string name="unit_price">سعر الوحدة</string>
+    <string name="total_value">القيمة الاجمالية</string>
+
+    <string name="work_type">نوع العمل	</string>
+    <string name="status">الحالة</string>
+    <string name="block_coordinates">احداثيات العقار</string>
+
+
+    <string name="pre_graph">رسم بياني قبل</string>
+    <string name="after_graph">رسم بياني بعد</string>
+    <string name="enter_coordinates">ادخال احداثيات العقار رقم 123221</string>
+
+
+
+
+</resources>

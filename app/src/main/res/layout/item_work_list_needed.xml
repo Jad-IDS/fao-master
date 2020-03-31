@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+
+                >
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray_text_dark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_margin"
+                android:textSize="@dimen/font"
+                android:text="1234"
+                />
+
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray_text_dark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_margin"
+                android:textSize="@dimen/font"
+                android:text="استصلاح"
+                />
+
+
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray_text_dark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_margin"
+                android:textSize="@dimen/font"
+                android:text="3000"
+                />
+
+
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray_text_dark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_margin"
+                android:textSize="@dimen/font"
+                android:text="900,000"
+                />
+
+
+
+
+
+        <com.ids.fao.custom.CustomTextViewMedium
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray_text_dark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_margin"
+                android:textSize="@dimen/font"
+                android:text="2,700,000"
+                />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/et_gray_border"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5bb449</color>
+    <color name="colorPrimaryDark">#5bb449 </color>
+    5bb449<color name="colorAccent">#00afbe</color>
+
+    <color name="primary">#5bb449</color>
+    <color name="secondary">#5bb449</color>
+    <color name="gray_text">#919191 </color>
+    <color name="gray_text_dark">#666666 </color>
+    <color name="dark_bt">#353940 </color>
+
+    <color name="btn_green">#00a65a </color>
+    <color name="btn_green_border">#008d4c </color>
+
+    <color name="btn_save">#00826a </color>
+
+    <color name="btn_red">#dd4b39 </color>
+    <color name="btn_border_red">#d73925 </color>
+
+
+
+    <color name="gray_medium">#efefef </color>
+    <color name="et_gray_inside">#eeeeee </color>
+    <color name="et_gray_border">#d2d6de </color>
+
+
+    <color name="gray_medium_3">#b1b1b1 </color>
+    <color name="dark_primary">#004755</color>
+    <color name="white">#ffffff </color>
+    <color name="black">#000000 </color>
+    <color name="transparent">#00000000 </color>
+
+
+    <color name="white_trans">#ccffffff </color>
+    <color name="blacktrans">#44000000</color>
+
+    <color name="gray_bg">#f7f7f7</color>
+
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="@dimen/item_status_height"
+
+
+        >
+
+
+
+    <com.ids.fao.custom.CustomTextViewMedium
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="1"
+            />
+
+
+
+
+
+
+    <com.ids.fao.custom.CustomTextViewMedium
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:layout_margin="@dimen/normal_margin"
+            android:background="@drawable/rectangular_gray_border"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="2400"
+            />
+
+
+
+
+
+    <com.ids.fao.custom.CustomTextViewMedium
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="2400"
+            />
+
+
+
+
+
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_margin="@dimen/normal_margin"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="dxx"
+            />
+
+
+
+
+
+    <RelativeLayout
+
+
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_weight="1.1"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            >
+
+        <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_down"
+
+                android:layout_marginEnd="@dimen/normal_margin"
+                />
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spRockType"
+                android:background="@color/transparent"
+                android:textSize="@dimen/font"
+
+
+                />
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_margin="@dimen/normal_margin"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="20"
+            />
+
+
+
+
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_margin="@dimen/normal_margin"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="0"
+            />
+
+
+<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/item_et_height"
+        android:layout_weight="1.1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+
+            android:text="تجليل"
+            />
+</LinearLayout>
+
+
+    <com.ids.fao.custom.CustomTextViewMedium
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="13-أ-"
+            />
+
+
+
+
+    <RelativeLayout
+
+
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_weight="0.8"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            >
+
+        <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_down"
+
+                android:layout_marginEnd="@dimen/normal_margin"
+                />
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spHubbyIrr"
+                android:background="@color/transparent"
+                android:textSize="@dimen/font"
+
+
+                />
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="@dimen/item_et_height"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text_dark"
+            android:gravity="center_vertical"
+            android:background="@drawable/rectangular_white_border_gray"
+            android:layout_margin="@dimen/normal_margin"
+            android:padding="@dimen/small_margin"
+            android:textSize="@dimen/font"
+            android:text="800.00"
+            />
+
+
+
+
+</LinearLayout>
